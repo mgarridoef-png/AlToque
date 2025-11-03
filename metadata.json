@@ -1,0 +1,7 @@
+{
+  "name": "Asistente de Tiempos de Viaje",
+  "description": "Un chatbot intuitivo que estima el tiempo de viaje a pie, en coche y en transporte público a un destino proporcionado por el usuario, utilizando su ubicación actual para obtener resultados precisos. Incluye conversión de texto a voz para respuestas audibles.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
