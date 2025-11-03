@@ -5,7 +5,7 @@ if (!process.env.API_KEY) {
   throw new Error("API_KEY environment variable is not set");
 }
 
-const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_API_KEY });
+const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
 const travelBotSystemInstruction = `Eres un asistente experto en viajes y mapas. Tu objetivo es estimar los tiempos de viaje y proporcionar datos de ruta desde la ubicación actual de un usuario hasta un destino que proporcionen.
 - Analiza la solicitud del usuario para identificar el destino.
